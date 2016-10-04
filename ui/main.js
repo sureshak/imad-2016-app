@@ -1,6 +1,5 @@
-console.log('Loaded!');
 var nameInput = document.getElementById("name").value;
-var submit= document.getElementById("submit");
+var submit= document.getElementById("submitbtn");
 submit.onClick = function(){
     alert();
     
