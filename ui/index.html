@@ -14,7 +14,7 @@
         </div>
         <input type="text" id="name" placeholder="name"/></input>
         <input type ="submit" id="submitbtn" value="submit"></input>
-        <ul>
+        <ul id="testId">
             <li>name1</li>
             <li>name2</li>
             <li>name3</li>
@@ -23,7 +23,14 @@
             var nameInput = document.getElementById("name").value;
             var submit= document.getElementById("submitbtn");
             submit.onclick = function(){
-             alert();
+             var names = ['name1','name2','name3'];
+             var list='';
+             for(var i=0;i<=names.length;i++){
+                 list = '<li>'+names[i]+'</li>';
+                 
+             }
+             var liItem=document.getElementById("testId");
+             ul.innerHTML=liItem;
             }
         </script>
     </body>
