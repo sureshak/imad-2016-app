@@ -1,3 +1,3 @@
-var nameInput = document.getElementById("name"); 
-            var submit= document.getElementById("submitbtn");
+var nameInput = document.getElementById("name1"); 
+var submit= document.getElementById("submitbtn");
             
