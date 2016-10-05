@@ -1,5 +1,4 @@
-var nameInput = document.getElementById("name1");
-var textName = nameInput.value;
+var nameInput = document.getElementById("name1"); 
             var submit= document.getElementById("submitbtn");
             submit.onclick = function(){
              var names = ['name1','name2','name3'];
